@@ -1,6 +1,5 @@
 package com.ecommerce.sb_ecom.controller;
 
-import com.ecommerce.sb_ecom.model.Category;
 import com.ecommerce.sb_ecom.payload.request.CategoryDTO;
 import com.ecommerce.sb_ecom.payload.request.response.CategoryResponse;
 import com.ecommerce.sb_ecom.service.CategoryService;
@@ -9,8 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
-import java.util.List;
 
 @RestController
 public class CategoryController {
