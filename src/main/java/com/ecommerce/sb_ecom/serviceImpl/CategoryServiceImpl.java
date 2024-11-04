@@ -2,7 +2,7 @@ package com.ecommerce.sb_ecom.serviceImpl;
 
 import com.ecommerce.sb_ecom.model.Category;
 import com.ecommerce.sb_ecom.payload.request.CategoryDTO;
-import com.ecommerce.sb_ecom.payload.request.response.CategoryResponse;
+import com.ecommerce.sb_ecom.payload.response.CategoryResponse;
 import com.ecommerce.sb_ecom.repositories.CategoryRepository;
 import com.ecommerce.sb_ecom.service.CategoryService;
 import org.modelmapper.ModelMapper;

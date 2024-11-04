@@ -1,7 +1,7 @@
 package com.ecommerce.sb_ecom.service;
 
 import com.ecommerce.sb_ecom.payload.request.CategoryDTO;
-import com.ecommerce.sb_ecom.payload.request.response.CategoryResponse;
+import com.ecommerce.sb_ecom.payload.response.CategoryResponse;
 
 
 public interface CategoryService {

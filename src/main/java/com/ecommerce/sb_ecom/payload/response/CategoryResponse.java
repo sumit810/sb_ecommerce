@@ -1,4 +1,4 @@
-package com.ecommerce.sb_ecom.payload.request.response;
+package com.ecommerce.sb_ecom.payload.response;
 
 import com.ecommerce.sb_ecom.payload.request.CategoryDTO;
 import lombok.AllArgsConstructor;

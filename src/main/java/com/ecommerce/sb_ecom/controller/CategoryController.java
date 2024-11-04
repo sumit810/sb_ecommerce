@@ -1,18 +1,18 @@
 package com.ecommerce.sb_ecom.controller;
 
 import com.ecommerce.sb_ecom.payload.request.CategoryDTO;
-import com.ecommerce.sb_ecom.payload.request.response.CategoryResponse;
+import com.ecommerce.sb_ecom.payload.response.CategoryResponse;
 import com.ecommerce.sb_ecom.service.CategoryService;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
+@AllArgsConstructor
 public class CategoryController {
 
-    @Autowired
     private CategoryService categoryService;
 
     @GetMapping("/api/public/categories")
